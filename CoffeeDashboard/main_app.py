@@ -143,9 +143,9 @@ with tab2:
     st.header("🏆 Top 10 Sản Phẩm Bán Chạy Nhất")
     
     try:
-        df_top10 = pd.read_csv("kf_coffee.csv")
+        df_top10 = pd.read_excel("kf_coffee (1).xlsx")
     except:
-        st.error("Không tìm thấy file dữ liệu kf_coffee.csv")
+        st.error("Không tìm thấy file dữ liệukf_coffee (1).xlsx")
         st.stop()
     
     # Hàm tính tổng số lượng bán
@@ -266,9 +266,9 @@ with tab4:
     st.header("📈 Biểu Đồ Doanh Thu Top 5 Sản Phẩm")
 
     try:
-        df_line = pd.read_csv("kf_coffee.csv")
+        df_line = pd.read_excel("kf_coffee (1).xlsx")
     except:
-        st.error("Không tìm thấy file dữ liệu kf_coffee.csv")
+        st.error("Không tìm thấy file dữ liệu kf_coffee (1).xlsx")
         st.stop()
 
     # Hàm tính tổng số lượng bán
